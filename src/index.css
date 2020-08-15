@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .modal-backdrop.show {
+            opacity: .5;
+        }
+        
+        .modal-backdrop.fade {
+            opacity: 0;
+        }
+        
+        .modal-backdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1040;
+            width: 100vw;
+            height: 100vh;
+            background-color: #000;
+        }
+        
+        .modal-open .modal {
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+        
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1050;
+            display: none;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            outline: 0;
+        }
+        
+        .modal-content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 700px;
+            margin: 13px;
+            margin-left: 350px;
+            pointer-events: auto;
+            background-clip: padding-box;
+            background: #312747;
+            border: 1.3px #fed136 solid;
+            border-radius: 100px;
+            outline: 0;
+            opacity: 0.85;
+        }
+        
+        .modal-content:hover {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 700px;
+            margin: 13px;
+            margin-left: 350px;
+            pointer-events: auto;
+            background-clip: padding-box;
+            background: #fed136;
+            border: 1.3px #312747 solid;
+            border-radius: 100px;
+            outline: 0;
+            opacity: 0.85;
+        }
+        
+        .modal-body:hover {
+            position: relative;
+            flex: 1 1 auto;
+            padding: 8rem;
+            color: #312747;
+        }
+        
+        .modal-body {
+            position: relative;
+            flex: 1 1 auto;
+            padding: 8rem;
+            opacity: 0.8;
+            color: #fed136;
+        }
+        
+        .newsletter .h2 {
+            display: block;
+            font-size: 0.5em;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
