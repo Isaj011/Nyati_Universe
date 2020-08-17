@@ -77,13 +77,19 @@ section .contentBx {
 
 section .contentBx h2 {
     font-size: 60px;
-    color: #fff;
+    color: #fed136;
     text-transform: uppercase;
 }
+
 
 section .contentBx p {
     font-size: 18px;
     color: #fff;
+}
+
+section .contentBx p:hover .showSpan {
+    font-size: 18px;
+    color: #fed136;
 }
 
 section .contentBx .countdown {
@@ -342,8 +348,9 @@ section .sci li a {
         position: relative;
         margin-top: 10px;
         display: inline-block;
-        background: #fff;
-        color: #fed136;
+        background: #312747;
+        order: #fed136 2px solid;
+        color: #fff;
         font-size: 16px;
         letter-spacing: 2px;
         padding: 10px 25px;
@@ -354,8 +361,8 @@ section .sci li a {
         position: relative;
         margin-top: 10px;
         display: inline-block;
-        background: #312747;
-        color: #fff;
+        background: #fed136;
+        color: #312747;
         font-size: 16px;
         letter-spacing: 2px;
         padding: 10px 25px;

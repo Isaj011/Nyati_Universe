@@ -96,3 +96,36 @@
             margin-inline-end: 0px;
             font-weight: bold;
         }
+
+        @media (max-width: 991px) {
+            .modal-content {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                width: 380px;
+                margin: 13px;
+                margin-left: 18px;
+                pointer-events: auto;
+                background-clip: padding-box;
+                background: #312747;
+                border: 1.3px #fed136 solid;
+                border-radius: 100px;
+                outline: 0;
+                opacity: 0.85;
+            }
+            .modal-content:hover {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                width: 380px;
+                margin: 13px;
+                margin-left: 18px;
+                pointer-events: auto;
+                background-clip: padding-box;
+                background: #fed136;
+                border: 1.3px #312747 solid;
+                border-radius: 100px;
+                outline: 0;
+                opacity: 0.85;
+            }
+        }

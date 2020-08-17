@@ -6,7 +6,7 @@ import twitter from './images/twitter.png'
 import logo from './images/nyatiLogo.svg'
 import nyati from './images/nNyati.svg'
 
-import { Button, Modal }
+import { Modal }
 from 'react-bootstrap'
 
 const App = () => {
@@ -81,7 +81,8 @@ const App = () => {
         alt = "nyati"
         className = "wave"/>
         < div className = "contentBx" >
-        <h2> Coming Soon </h2> <p> Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim and minim veniam. </p>
+        <h2> Coming Soon </h2> <p> Lets explore the mind of a young <span className="showSpan">Bazeng</span>, in his daily grind ready to take on the world in a fictional community revered to as <span className="showSpan"><i>Kavumbi</i></span>.<br/>
+         Is the Bazeng ready for what <span className="showSpan"><i>Kavumbi</i></span> has to throw at him. <span className="showSpan">#Issa_Rogue_Nation</span></p>
          <div className = "countdown" >
         <div className = "time" >
         <div id = "day" > {
@@ -105,9 +106,9 @@ const App = () => {
         alt = "man"/>
         </div > <ul className = "sci">
         <li >
-        <a href = "#" > < img src = { instagram }
+        <a href = "https://www.instagram.com/nyati_rogue/"  target="_blank" > < img src = { instagram }
         alt = "instagram" />
-        </a > < a href = "#" > < img src = { twitter }
+        </a > < a target="_blank" href = "https://twitter.com/Isaj_B_011" > < img src = { twitter }
         alt = "twitter" />
         </a > </li > </ul> 
         </section> 
