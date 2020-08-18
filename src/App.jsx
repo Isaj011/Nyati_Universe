@@ -67,7 +67,7 @@ const App = () => {
 
     return ( <div className = "App">
         <header>
-        <a href = "#"
+        <a href = "/#"
         className = "logo"> < img src = { logo }
         alt = "logo"
         className = "svgLogo"/>
@@ -100,15 +100,15 @@ const App = () => {
         <div className = "time" >
         <div id = "second" > {
             timerComponents[3]
-        } </div> <span > Seconds </span> </div > </div> <a href = "#" onClick = { handleShow } >
+        } </div> <span > Seconds </span> </div > </div> <a href = "/#" onClick = { handleShow } >
         Yooh alert me! </a> </div > <div className = "imgBx" >
         <img src = { man }
         alt = "man"/>
         </div > <ul className = "sci">
         <li >
-        <a href = "https://www.instagram.com/nyati_rogue/"  target="_blank" > < img src = { instagram }
+        <a href = "https://www.instagram.com/nyati_rogue/"  target="_blank" rel="noopener noreferrer"> < img src = { instagram }
         alt = "instagram" />
-        </a > < a target="_blank" href = "https://twitter.com/Isaj_B_011" > < img src = { twitter }
+        </a > < a target="_blank" rel="noopener noreferrer" href = "https://twitter.com/Isaj_B_011" > < img src = { twitter }
         alt = "twitter" />
         </a > </li > </ul> 
         </section> 
