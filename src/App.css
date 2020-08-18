@@ -96,6 +96,9 @@ section .contentBx .countdown {
     display: flex;
     margin: 20px 0;
 }
+section .contentBx .countdown:hover{
+    animation: translation 3s infinite alternate;
+}
 
 section .contentBx .countdown .time {
     display: flex;
@@ -129,6 +132,14 @@ section .contentBx .countdown .time:hover {
     border-radius: 4px;
     opacity: 0.95;
     color: #312747;
+}
+@keyframes translation {
+    from {
+        transform:translate(0px,-18px)
+    }
+    to {
+        transform: translate(20px, 20px)
+    }
 }
 
 section .contentBx .countdown .time span {
